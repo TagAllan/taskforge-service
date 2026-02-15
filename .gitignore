@@ -1,0 +1,26 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+
+# Documentação pessoal (comunicação com IA)
+docs/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
